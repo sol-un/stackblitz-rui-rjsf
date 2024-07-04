@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Lab Grotesque K, Lab Grotesque, sans-serif;
+  padding: 1rem;
+  color: black;
+  background-color: white;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+i.glyphicon {
+  display: none;
+}
+.btn-add::after {
+  content: 'Add';
+}
+.array-item-copy::after {
+  content: 'Copy';
+}
+.array-item-move-up::after {
+  content: 'Move Up';
+}
+.array-item-move-down::after {
+  content: 'Move Down';
+}
+.array-item-remove::after {
+  content: 'Remove';
+}
+
+.field {
+  width: 200px;
+}
+
+.field-object {
+  display: none;
+}
+
+.array-item {
+  display: grid;
+}
+
+.array-item .field {
+  width: 60px;
+}
